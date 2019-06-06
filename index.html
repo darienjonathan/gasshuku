@@ -23,7 +23,9 @@ body {
   height: 100vh;
   background-image: url('pictogram_kome.png');
   background-size: contain;
+  background-repeat: no-repeat;
   transition: background 0.5s;
+  width: 375px;
 }
 
 #container.inactive {
@@ -54,6 +56,10 @@ body {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.5s, visibility 0.5s;
+  width: 375px;
+  left: 50%;
+  transform: translateX(-50%);
+
 }
 
 #modal.active {
